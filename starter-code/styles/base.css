@@ -1,5 +1,16 @@
 /* TODO: Add a rule for images, so they never exceed their container's width. */
-
+section {
+  margin: 3em;
+  width: 90%;
+  position: relative;
+  height: auto;
+}
+img {
+  max-width: 10%;
+  height: auto;
+  margin: 1em;
+  float: left;
+}
 body {
   line-height: 1.5;
   font-size: 100%;
